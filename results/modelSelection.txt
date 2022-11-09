@@ -1,0 +1,90 @@
+---- Support Vector Machines ----
+Parametres per defecte: {'C': 1.0, 'class_weight': None, 'dual': True, 'fit_intercept': True, 'intercept_scaling': 1, 'loss': 'squared_hinge', 'max_iter': 1000, 'multi_class': 'ovr', 'penalty': 'l2', 'random_state': None, 'tol': 0.0001, 'verbose': 0}
+
+Score del model amb 0.5: 0.588469184890656
+Score del model amb 0.7: 0.5860927152317881
+Score del model amb 0.8: 0.607940446650124
+
+
+Score mitja amb k-fold = 2 : 0.60119531566818
+Score mitja amb k-fold = 3 : 0.5997026788560921
+Score mitja amb k-fold = 4 : 0.599205563432156
+Score mitja amb k-fold = 5 : 0.5977124304038122
+
+Classes trobades: [0. 1.]
+Atributs trobats: 9
+
+Score Leave One Out: 0.5972153157633019
+
+---- KNN ----
+Parametres per defecte: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+
+Score del model amb 0.5: 0.621272365805169
+Score del model amb 0.7: 0.6374172185430463
+Score del model amb 0.8: 0.6178660049627791
+
+
+Score mitja amb k-fold = 2 : 0.5713534712125259
+Score mitja amb k-fold = 3 : 0.5892704880960326
+Score mitja amb k-fold = 4 : 0.5644162910980334
+Score mitja amb k-fold = 5 : 0.5852956063355678
+
+Classes trobades: [0. 1.]
+Atributs trobats: 9
+
+Score Leave One Out: 0.636001989060169
+
+---- Decision Tree ----
+Parametres per defecte: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': None, 'splitter': 'best'}
+
+Score del model amb 0.5: 0.5596421471172962
+Score del model amb 0.7: 0.5860927152317881
+Score del model amb 0.8: 0.6153846153846154
+
+
+Score mitja amb k-fold = 2 : 0.5246021384133013
+Score mitja amb k-fold = 3 : 0.5733567631292124
+Score mitja amb k-fold = 4 : 0.5554620484265721
+Score mitja amb k-fold = 5 : 0.5917743787267138
+
+Classes trobades: [0. 1.]
+Atributs trobats: 9
+
+Score Leave One Out: 0.5852809547488812
+
+---- Logistic Regression ----
+Parametres per defecte: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+
+Score del model amb 0.5: 0.5944333996023857
+Score del model amb 0.7: 0.6076158940397351
+Score del model amb 0.8: 0.5955334987593052
+
+
+Score mitja amb k-fold = 2 : 0.6016923335608241
+Score mitja amb k-fold = 3 : 0.5982116244411326
+Score mitja amb k-fold = 4 : 0.5997025813248001
+Score mitja amb k-fold = 5 : 0.5972149179660012
+
+Classes trobades: [0. 1.]
+Atributs trobats: 9
+
+Score Leave One Out: 0.5972153157633019
+
+---- Perceptron ----
+Parametres per defecte: {'alpha': 0.0001, 'class_weight': None, 'early_stopping': False, 'eta0': 1.0, 'fit_intercept': True, 'l1_ratio': 0.15, 'max_iter': 1000, 'n_iter_no_change': 5, 'n_jobs': None, 'penalty': None, 'random_state': 0, 'shuffle': True, 'tol': 0.001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+
+Score del model amb 0.5: 0.5099403578528827
+Score del model amb 0.7: 0.5562913907284768
+Score del model amb 0.8: 0.5062034739454094
+
+
+Score mitja amb k-fold = 2 : 0.49474842487364373
+Score mitja amb k-fold = 3 : 0.5141661291159701
+Score mitja amb k-fold = 4 : 0.5176490855662836
+Score mitja amb k-fold = 5 : 0.5107712060047159
+
+Classes trobades: [0. 1.]
+Atributs trobats: 9
+
+Score Leave One Out: 0.512680258577822
+

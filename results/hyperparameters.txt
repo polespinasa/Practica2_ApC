@@ -1,0 +1,20 @@
+Model name: Support Vector Machines
+Els millors parametres: {'random_state': 90, 'C': 10}
+El millor score: 0.5982099428416231
+
+Model name: KNN
+Els millors parametres: {'weights': 'uniform', 'n_neighbors': 15, 'metric': 'minkowski'}
+El millor score: 0.6265533375307087
+
+Model name: Decision Tree
+Els millors parametres: {'min_samples_leaf': 10, 'max_depth': 5, 'criterion': 'gini'}
+El millor score: 0.6206091132427194
+
+Model name: Logistic Regression
+Els millors parametres: {'C': 0.1}
+El millor score: 0.5977124304038122
+
+Model name: Perceptron
+Els millors parametres: {'shuffle': False, 'fit_intercept': False, 'alpha': 0.0001}
+El millor score: 0.5146648889547301
+
